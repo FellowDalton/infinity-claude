@@ -1,0 +1,18 @@
+[
+  {
+    "session_id": "f2b2e629-9d7c-4508-a9cd-af2360bbfede",
+    "transcript_path": "/Users/dalton/.claude/projects/-Users-dalton-projects-infinity-claude/f2b2e629-9d7c-4508-a9cd-af2360bbfede.jsonl",
+    "cwd": "/Users/dalton/projects/infinity-claude",
+    "permission_mode": "default",
+    "hook_event_name": "SubagentStop",
+    "stop_hook_active": false
+  },
+  {
+    "session_id": "f2b2e629-9d7c-4508-a9cd-af2360bbfede",
+    "transcript_path": "/Users/dalton/.claude/projects/-Users-dalton-projects-infinity-claude/f2b2e629-9d7c-4508-a9cd-af2360bbfede.jsonl",
+    "cwd": "/Users/dalton/projects/infinity-claude",
+    "permission_mode": "default",
+    "hook_event_name": "SubagentStop",
+    "stop_hook_active": false
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "session_id": "f2b2e629-9d7c-4508-a9cd-af2360bbfede",
+    "transcript_path": "/Users/dalton/.claude/projects/-Users-dalton-projects-infinity-claude/f2b2e629-9d7c-4508-a9cd-af2360bbfede.jsonl",
+    "cwd": "/Users/dalton/projects/infinity-claude",
+    "hook_event_name": "SessionStart",
+    "source": "startup"
+  },
+  {
+    "session_id": "dc9bec26-aa1b-4375-91a4-812ff063f29e",
+    "transcript_path": "/Users/dalton/.claude/projects/-Users-dalton-projects-infinity-claude/dc9bec26-aa1b-4375-91a4-812ff063f29e.jsonl",
+    "cwd": "/Users/dalton/projects/infinity-claude",
+    "hook_event_name": "SessionStart",
+    "source": "resume"
+  },
+  {
+    "session_id": "e28f0aca-9a4f-4aba-a1b1-5613f5036795",
+    "transcript_path": "/Users/dalton/.claude/projects/-Users-dalton-projects-infinity-claude/e28f0aca-9a4f-4aba-a1b1-5613f5036795.jsonl",
+    "cwd": "/Users/dalton/projects/infinity-claude",
+    "hook_event_name": "SessionStart",
+    "source": "clear"
+  }
+]

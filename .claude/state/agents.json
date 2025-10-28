@@ -1,0 +1,14 @@
+{
+  "bootstrap": {
+    "type": "system",
+    "purpose": "Initial system setup and coordination",
+    "created": "2025-10-27T00:00:00Z",
+    "status": "active",
+    "path": ".claude/agents/bootstrap",
+    "capabilities": [
+      "agent_creation",
+      "state_management",
+      "system_initialization"
+    ]
+  }
+}

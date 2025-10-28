@@ -1,0 +1,112 @@
+{
+  "version": "1.0.0",
+  "projectName": "self-evolving-app",
+  "initialized": "2025-10-27T00:00:00Z",
+  "lastRun": "2025-10-27T00:00:00Z",
+  "currentPhase": "bootstrap",
+  "cycleCount": 0,
+  "requiresHuman": false,
+  
+  "nextActions": [
+    {
+      "id": "init-001",
+      "type": "setup",
+      "priority": "critical",
+      "action": "Receive app requirements from user",
+      "status": "pending",
+      "assignedTo": "bootstrap"
+    },
+    {
+      "id": "init-002",
+      "type": "research",
+      "priority": "critical",
+      "action": "Research and document best practices for chosen tech stack using web search",
+      "status": "pending",
+      "assignedTo": "bootstrap"
+    },
+    {
+      "id": "init-003",
+      "type": "create_agent",
+      "priority": "critical",
+      "action": "Create quality_enforcer agent - validates ALL code against best practices",
+      "status": "pending",
+      "assignedTo": "bootstrap"
+    },
+    {
+      "id": "init-004",
+      "type": "create_agent",
+      "priority": "high",
+      "action": "Create researcher agent for tech stack analysis",
+      "status": "pending",
+      "assignedTo": "bootstrap"
+    },
+    {
+      "id": "init-005",
+      "type": "create_agent",
+      "priority": "high",
+      "action": "Create architect agent for system design",
+      "status": "pending",
+      "assignedTo": "bootstrap"
+    }
+  ],
+  
+  "completedActions": [],
+  
+  "blockers": [],
+  
+  "agents": {
+    "bootstrap": {
+      "status": "active",
+      "created": "2025-10-27T00:00:00Z",
+      "purpose": "Initial system setup and agent creation",
+      "capabilities": ["agent_creation", "state_management", "decision_making"]
+    }
+  },
+  
+  "metrics": {
+    "totalCycles": 0,
+    "tasksCompleted": 0,
+    "agentsCreated": 1,
+    "decisionsLogged": 0,
+    "blockerCount": 0,
+    "avgCycleTime": 0,
+    "successRate": 100,
+    "quality": {
+      "codeReviews": 0,
+      "testsWritten": 0,
+      "testCoverage": 0,
+      "linterPasses": 0,
+      "securityScans": 0,
+      "performanceTests": 0,
+      "bestPracticeViolations": 0,
+      "qualityScore": 100
+    }
+  },
+  
+  "context": {
+    "appRequirements": "To be provided by user",
+    "techStack": "TBD - will be researched and decided",
+    "designSystem": "TBD - will be created",
+    "framework": "TBD - will be custom-built as needed",
+    "bestPractices": {
+      "researched": false,
+      "documented": false,
+      "enforcementRules": [],
+      "qualityGates": [],
+      "referenceProjects": []
+    }
+  },
+  
+  "memory": {
+    "keyDecisions": [],
+    "learnings": [],
+    "patterns": []
+  },
+  
+  "health": {
+    "status": "healthy",
+    "lastHealthCheck": "2025-10-27T00:00:00Z",
+    "consecutiveFailures": 0,
+    "needsIntervention": false
+  }
+}
