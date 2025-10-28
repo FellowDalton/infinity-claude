@@ -2,11 +2,39 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Project Overview
+---
 
-A **self-evolving autonomous development system** where Claude builds applications continuously. The system runs every 30 minutes, maintains state between runs, and creates agents/tools as needed.
+## ⚠️ READ THIS FIRST: MINDSET.md Supremacy
+
+**Before using anything in this document, read `.claude/MINDSET.md`.**
+
+This file is a **technical reference** for using the infinity-claude system. However:
+
+- **MINDSET.md contains the governing principles** for all work on this project
+- **When MINDSET.md and CLAUDE.md conflict, MINDSET.md wins**
+- **All features described below must comply with Solo Dev Mindset principles**
+
+Key principles that override this technical reference:
+- Only build what's explicitly requested
+- Keep everything simple and understandable at a glance
+- No over-engineering, no premature optimization
+- Ask before making architectural decisions
+
+If any feature in this system violates MINDSET.md, simplify or remove it.
+
+---
+
+## System Overview
+
+The infinity-claude system is an autonomous development assistant that:
+- Maintains continuity across sessions via state files
+- Provides reusable skills (state management, quality checks, agent creation, swarm deployment)
+- Enables slash commands for common workflows
+- Enforces quality standards before code changes
 
 **Core principle**: Quality-first development. Code must pass all quality gates (score >95) before proceeding.
+
+**Governance**: All system behavior subject to `.claude/MINDSET.md` principles.
 
 ## Quick Start
 
@@ -128,24 +156,26 @@ Update these to maintain context:
 - `.claude/memory/learnings.md` - What worked/didn't work
 - `.claude/memory/best-practices.md` - Researched best practices
 
-## Best Practices
+## Usage Guidelines
 
-1. **Use slash commands** for structured workflows
-2. **Invoke subagents** for specialized tasks (state management, etc.)
-3. **Leverage skills** for common operations
-4. **Research before coding** - search best practices, document findings
+1. **Always consult `.claude/MINDSET.md` first** - it overrides everything else
+2. **Use slash commands** for structured workflows
+3. **Invoke subagents** for specialized tasks (state management, etc.)
+4. **Leverage skills** for common operations
 5. **Quality first** - validate everything, maintain score >95
 6. **Update state** - use `continuity-manager` before finishing
-7. **Document decisions** - future instances need context
+7. **Ask before deciding** - never make architectural decisions without explicit approval
 
 ## Detailed Documentation
 
+- **🔴 MINDSET.md**: `.claude/MINDSET.md` - Solo Dev principles (READ FIRST)
 - **Initialization**: `.claude/docs/initialization.md`
 - **Bootstrap**: `.claude/docs/bootstrap.md`
 - **Quick Start**: `.claude/docs/quick-start.md`
 - **Quality Framework**: `.claude/docs/quality-framework.md`
 - **Quality Checklist**: `.claude/docs/quality-checklist.md`
 - **Swarm Agents**: `.claude/docs/swarm-agents.md` (Haiku-powered parallel agents)
+- **Design Philosophy**: `.claude/docs/design-philosophy.md` - How system aligns with MINDSET.md
 - **Full README**: `README.md`
 
 ## Emergency

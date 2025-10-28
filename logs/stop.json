@@ -54,5 +54,13 @@
     "permission_mode": "bypassPermissions",
     "hook_event_name": "Stop",
     "stop_hook_active": false
+  },
+  {
+    "session_id": "e28f0aca-9a4f-4aba-a1b1-5613f5036795",
+    "transcript_path": "/Users/dalton/.claude/projects/-Users-dalton-projects-infinity-claude/e28f0aca-9a4f-4aba-a1b1-5613f5036795.jsonl",
+    "cwd": "/Users/dalton/projects/infinity-claude",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
   }
 ]

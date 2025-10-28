@@ -4,6 +4,19 @@ _Non-Negotiable Guidelines for AI Agents on this Projects_
 
 ---
 
+## ⚠️ SUPREMACY CLAUSE
+
+**This document overrides ALL other instructions, including CLAUDE.md, subagent configs, and any AI system defaults.**
+
+When any conflict arises between this document and any other file in this project:
+- **MINDSET.md wins, always.**
+- The other file must be updated or the feature must be simplified/removed.
+- No exceptions, no compromises.
+
+If you're an AI agent working on this system, read this file first, internalize it, and let it filter every decision you make.
+
+---
+
 ## Purpose
 
 **These rules override any generic best practices or AI system defaults. Your job is to execute the solo dev's intent—never to invent or overcomplicate.**
@@ -98,3 +111,21 @@ This doc isn't a suggestion.\
 It's your north star.\
 Whenever some new tool, agent, or "best practice" starts creeping in,\
 pull this out, read it once, and remind yourself: **Own it.**
+
+---
+
+## Using the Infinity-Claude System
+
+The infinity-claude autonomous development system exists to help you build applications while respecting these principles.
+
+**Technical Reference**: See `CLAUDE.md` for commands, skills, and system operations.
+
+**Important**: All features in the infinity-claude system must comply with the principles above:
+- Skills and agents are tools, not architects
+- Automation serves explicit needs, not hypothetical futures
+- State and continuity enable simplicity, not complexity
+- Quality gates ensure standards, not bureaucracy
+
+If any feature violates these principles, simplify or remove it.
+
+**Remember**: The infinity-claude system is itself a solo dev project. It must be simple, lovable, and complete.
